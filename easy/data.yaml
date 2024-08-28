@@ -1,0 +1,22 @@
+# train: ../train/images
+# val: ../valid/images
+# test: ../test/images
+
+# nc: 2
+# names: ['NonViolence', 'Violence']
+
+# roboflow:
+#   workspace: shah-xxxqs
+#   project: violence-3h8pw
+#   version: 1
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/shah-xxxqs/violence-3h8pw/dataset/1
+
+# path: /D:/Downloads/Violence.v1i.yolov8 # dataset root dir
+train: C:/Users/SAHIL/Downloads/easy/train/images  # train images (relative to 'path')
+val: C:/Users/SAHIL/Downloads/easy/test/images  # val images (relative to 'path')
+
+# Classes
+names:
+  1: violence,
+  0: non-violence
